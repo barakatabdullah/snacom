@@ -1,0 +1,207 @@
+
+/* * All rights reserved © 2021 Sancom for web and design services  *
+*Released on: September 22, 2021* */
+
+body {
+  font-family: cairo;
+  background-color: #fff;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: fixed;
+  align-items: center;
+}
+/* sections styling */
+#title {
+  background-image: url(background1.svg);
+  padding: 2% 5% 12% 5%;
+  z-index: -1;
+  display: block;
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: scroll;
+}
+
+#about-us {
+  background-color: #fff;
+  display: block;
+  padding: 8% 10% 8% 5%;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+#features {
+  padding: 12% 5%;
+  background-color: #fafafa;
+  background-image: url(background2.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: scroll;
+  text-align: center;
+  z-index: 0;
+}
+
+#Portfolio {
+  padding: 13% 5%;
+  background-image: url(background.svg);
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: scroll;
+}
+
+#footer {
+  padding: 3% 5%;
+  background-color: white;
+  color: black;
+  align-items: center;
+  text-align: center;
+}
+
+/* text headers */
+h1 {
+  font-weight: 700;
+  color: white;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+}
+/*navbar styles*/
+.btn-p {
+  color: white;
+  border-color: white;
+}
+.logo {
+  margin-right: -3rem;
+}
+.btn-serv {
+  margin-right: 38rem
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-toggler-icon:hover {
+  color: #3ab7bb;
+}
+.navbar-nav{
+  align-items: baseline;
+  float: right;
+}
+/*header styles*/
+.header-v {
+  padding-top: 5rem;
+}
+.header-1 {
+  position: absolute;
+  top: 50%;
+  font-size: 50px;
+}
+
+/*about-us section styles*/
+.waw {
+  text-align: center;
+  margin-top: 3rem;
+}
+#about-us h3 {
+  color: black;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.heading {
+  color: #3ab7bb;
+}
+.about-us-image {
+  height: 70%;
+}
+/*features section styles*/
+.f-size {
+  text-align: center;
+  color: black;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.fap {
+  padding-bottom: 1.5rem;
+  color: #1e0f29;
+}
+
+.fap:hover {
+  color: #3ab7bb;
+}
+.feature-box {
+  padding: 7% 5%
+}
+/*Portfolio section styles*/
+.p-size {
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 2rem;
+}
+.carousel-item {
+  padding: 1rem 20rem;
+}
+/*footer styles*/
+.social-icons {
+  margin: 10px 6px;
+  color: black;
+}
+/* media */
+@media only screen and (max-width: 980px){
+  .btn-serv {
+    margin-right: 0;
+  }
+  .header-v{
+    align-items: center;
+    text-align: center;
+  }
+  .header-1{
+    top: auto;
+    position: static;
+  }
+  .navbar-nav{
+    align-items: baseline;
+    float: right;
+  }
+#about-us{
+  text-align: center;
+}
+.waw{
+  text-align: center;
+  margin-top: 3rem;
+}
+.about-us-image{
+  padding-top: 3rem;
+}
+#features{
+  padding-top: 25%;
+}
+.w-30{
+  width: 100%;
+  align-items: center;
+}
+.carousel-item{
+  padding: 1rem 2rem;
+}
+}
